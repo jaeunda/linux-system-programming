@@ -12,10 +12,13 @@ Each project is implemented from scratch in C, runs in the terminal.
 
 ## Projects
 ### 1. File Organizer: [ssu-cleanup](./lsp-p1)
-
+- This CLI-based tool organizes files in a given directory based on their extensions.
+- This project focuses on file I/O, command parsing, and linked list representation of directory structures.
 ### 2. Cleanup Daemon: [ssu-cleanupd](./lsp-p2)
-
+- This tool runs as a daemon that monitors specified directories and organizes newly added files periodically.
+- This project focuses on daemon process management, configuration handling, file locking, and exception handling in a system environment.
 ### 3. EXT2 Image Analyzer: [ssu-ext2](./lsp-p3)
+- This CLI program parses and analyzes ext2 disk image files to display directory structures and file contents.
 
 ## Requirements
 - Linux-based OS (e.g., Ubuntu)
